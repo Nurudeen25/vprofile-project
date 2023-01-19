@@ -32,7 +32,7 @@ services:
   vproweb:
     image: deenprofile/vprofileweb:V1
     ports:
-      - "82:82"
+      - "80:80"
 volumes:
   vprodbdata: {}
   vproappdata: {}
